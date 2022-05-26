@@ -9,10 +9,16 @@ import HookCounterOneUE from "./components/useEffect/HookCounterOneUE";
 import CallbackApp from "./components/useCallback/CallbackApp";
 import UseRefApp from "./components/useRef/UseRefApp";
 import UseLayoutApp from "./components/useLayout/UseLayoutApp";
+import UseTransitionApp from "./components/useTransition/UseTransitionApp";
 
 function App() {
   return (
     <div className="App">
+    <hr />
+    <hr />
+    <h1> UseTransition Hook</h1>
+    <UseTransitionApp />
+      
     <hr />
     <hr />
     <h1> useLayoutEffect Hook</h1>
