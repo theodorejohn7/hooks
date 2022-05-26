@@ -10,10 +10,16 @@ import CallbackApp from "./components/useCallback/CallbackApp";
 import UseRefApp from "./components/useRef/UseRefApp";
 import UseLayoutApp from "./components/useLayout/UseLayoutApp";
 import UseTransitionApp from "./components/useTransition/UseTransitionApp";
+import UseImperativeHandleApp from "./components/useImperativeHandle/UseImperativeHandleApp";
 
 function App() {
   return (
     <div className="App">
+    <hr />
+    <hr />
+    <h1> UseImperativeHandle Hook</h1>
+    <UseImperativeHandleApp />
+
     <hr />
     <hr />
     <h1> UseTransition Hook</h1>
