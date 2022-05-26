@@ -8,10 +8,15 @@ import ClassCounterOne from "./components/useEffect/ClassCounterOne";
 import HookCounterOneUE from "./components/useEffect/HookCounterOneUE";
 import CallbackApp from "./components/useCallback/CallbackApp";
 import UseRefApp from "./components/useRef/UseRefApp";
+import UseLayoutApp from "./components/useLayout/UseLayoutApp";
 
 function App() {
   return (
     <div className="App">
+    <hr />
+    <hr />
+    <h1> useLayoutEffect Hook</h1>
+    <UseLayoutApp />
       <hr />
       <hr />
       <h1> useRef Hook</h1>
