@@ -1,6 +1,6 @@
 import React, { forwardRef, useImperativeHandle, useState } from "react";
 
-function Modal(props, ref) {
+function Modal(_props, ref) {
   const [modalState, setModalState] = useState(false);
   useImperativeHandle(ref, () => ({
     openModal: () => setModalState(true),

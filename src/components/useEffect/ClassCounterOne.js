@@ -12,7 +12,7 @@ export default class ClassCounterOne extends Component {
     document.title = `Clicked ${this.state.count} times`;
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(_prevProps, _prevState) {
     document.title = `Clicked  ${this.state.count} times`;
   }
 

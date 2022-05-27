@@ -1,4 +1,4 @@
-import React, { useLayoutEffect,useEffect, useState, useRef } from "react";
+import React, { useLayoutEffect, useState, useRef } from "react";
 
 function UseLayoutApp() {
   const [show, setShow] = useState(false);

@@ -1,7 +1,6 @@
-import { useRef } from "react";
+import React,  { useRef } from "react";
 import Modal from "./Modal";
 
-import React from "react";
 
 function UseImperativeHandleApp() {
   const modalRef = useRef();
